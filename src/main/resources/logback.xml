@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+	
+	<!-- Root Logger -->
+	<root lebel="debug">
+		<appender-ref ref="STDOUT" />
+	</root>
+	
+	<!-- Application Loggers -->
+<!-- 	<logger name="com.petcare.web">
+		<level value="info" />
+	</logger> -->
+	
+	<!-- 3rdparty Loggers -->
+	<!-- <logger name="org.springframework.core">
+		<level value="info" />
+	</logger>
+	
+	<logger name="org.springframework.beans">
+		<level value="info" />
+	</logger>
+	
+	<logger name="org.springframework.context">
+		<level value="info" />
+	</logger>
+
+	<logger name="org.springframework.web">
+		<level value="info" />
+	</logger> -->
+
+
+</configuration>
